@@ -1,0 +1,57 @@
+#root{
+  font-family: 'Rubik', sans-serif;
+  background-color: var(--mainColor);
+  height: 100vh;
+}
+
+/* Variables Color */
+:root{
+  --white: #f2eeeb;
+  --mainColor:  #2f3556 ;
+  --secondColor:  #ed6673 ;
+  --thirdColor:  #2ac6ea ;
+  --orange:  #f6b86d ;
+}
+/* Colors */
+.f-white{
+  color: var(--white)
+}
+.f-main{
+  color: var(--mainColor);
+}
+.f-second{
+  color: var(--secondColor)
+}
+.f-third{
+  color: var(--thirdColor);
+}
+.f-orange{
+  color: var(--orange);
+}
+
+/* BackgroundColor */
+.b-white{
+  background-color: var(--white)
+}
+.b-main{
+  background-color: var(--mainColor);
+}
+.b-second{
+  background-color: var(--secondColor)
+}
+.b-third{
+  background-color: var(--thirdColor);
+}
+.b-orange{
+  background-color: var(--orange);
+}
+
+
+/* Modify BS */
+.myBtn{
+  text-decoration: none;
+}
+.nav-link:hover{
+  color: var(--orange);
+  transition: .4s;
+}
