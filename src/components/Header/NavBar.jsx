@@ -20,10 +20,10 @@ const NavBar = () => {
                     <ul className="navbar-nav m-auto mb-2 mb-lg-0">
                         {navItem}
                     </ul>
-                </div>
                 <div className="button">
                     <a href="#" className="myBtn f-white fs-5 mx-3">Log in</a>
                     <a href="#" className="myBtn f-white fs-5 border rounded-5 px-4 py-2">Get Started</a>
+                </div>
                 </div>
             </div>
         </nav>
