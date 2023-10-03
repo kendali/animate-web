@@ -55,3 +55,8 @@
   color: var(--orange);
   transition: .4s;
 }
+
+.people-card{
+  width: 220px;
+  height: 250px;
+}
