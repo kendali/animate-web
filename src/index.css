@@ -61,6 +61,12 @@
   height: 250px;
 }
 
-.img-about{
-  
+.input{
+  border: none;
+  outline: none;
 }
+
+input:focus{
+  border: none;
+}
+
